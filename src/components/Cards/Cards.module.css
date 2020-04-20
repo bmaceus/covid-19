@@ -1,0 +1,32 @@
+.container {
+  margin: 50px 0;
+  width: 80%;
+}
+.card {
+  margin: 2% !important;
+  color: #fff !important;
+  font-size: 2.3em !important;
+  text-align: center !important;
+}
+.infected {
+  background: #573fd5;
+  background: linear-gradient(to right, #573fd5, #7e64f9);
+}
+.recovered {
+  background: #0fb9b6;
+  background: linear-gradient(to right, #0fb9b6, #7dcdf0);
+}
+
+.deaths {
+  background: #f9308e;
+  background: linear-gradient(to right, #f9308e, #fc6064);
+}
+.number {
+  font-size: 1em !important;
+}
+
+@media only screen and (max-width: 770px) {
+  .card {
+    margin: 10px 0 !important;
+  }
+}
